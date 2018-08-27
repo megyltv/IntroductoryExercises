@@ -1,14 +1,12 @@
 package introductory;
 
 public class exercisesClass {
-    int n;
+    //int n;
+    int aux=0;
     String asterisk="*";
 
     public exercisesClass(){}
 
-    public exercisesClass(int n) {
-        this.n = n;
-    }
 
     //Triangle Exercises
 
@@ -16,9 +14,17 @@ public class exercisesClass {
         System.out.println("Print one asterisk\n"+asterisk+"\n");
     }
 
-    public void drawHorinzontalLine(){}
+    public void drawHorinzontalLine(int n){
+        aux=0;
+        while(aux<n){
+            System.out.print(asterisk);
+            aux++;
+        }
+    }
 
-    public void drawVerticalLine(){}
+    public void drawVerticalLine(int n){
+
+    }
 
     public void drawRightTriangle(){}
 
