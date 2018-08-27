@@ -11,6 +11,8 @@ public class exercisesMain {
 
         exercise = new exercisesClass();
 
+        //TRIANGLE EXERCISES
+
         //Exercises One
         //exercise.exerciseOne();
 
@@ -29,11 +31,17 @@ public class exercisesMain {
         exercise.drawVerticalLine(n);*/
 
         //Get value of n -- Draw right triangle
+        /*System.out.println("\nGive value of n: ");
+        Scanner inValueN = new Scanner(System.in);
+        n=Integer.parseInt(inValueN.nextLine());
+        exercise.drawRightTriangle(n);*/
+
+
+        //DIAMOND EXERCISES
         System.out.println("\nGive value of n: ");
         Scanner inValueN = new Scanner(System.in);
         n=Integer.parseInt(inValueN.nextLine());
-        exercise.drawRightTriangle(n);
-
+        exercise.isoscelesTriangle(n);
 
     }
 }

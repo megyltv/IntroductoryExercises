@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f292734-cc5a-4866-97bd-85429cc45496" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/introductory/exercisesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductory/exercisesClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/introductory/exercisesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductory/exercisesMain.java" afterDir="false" />
     </list>
@@ -32,32 +33,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="931" />
+          <entry key="java" value="1263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="931" />
+          <entry key="JAVA" value="1263" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="359">
+              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="182">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="e#238#239#0" expanded="true" />
                 <element signature="e#288#289#0" expanded="true" />
@@ -88,8 +89,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/exercisesMain.java" />
         <option value="$PROJECT_DIR$/src/exercisesClass.java" />
-        <option value="$PROJECT_DIR$/src/introductory/exercisesClass.java" />
         <option value="$PROJECT_DIR$/src/introductory/exercisesMain.java" />
+        <option value="$PROJECT_DIR$/src/introductory/exercisesClass.java" />
       </list>
     </option>
   </component>
@@ -132,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535410276219" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535411692637" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,15 +189,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892473" visible="true" weight="0.2792422" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.50107527" side_tool="true" visible="true" weight="0.2792422" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.2792422" />
+      <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.2792422" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32900432" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32756132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,21 +216,21 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="182">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
