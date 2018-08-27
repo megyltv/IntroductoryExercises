@@ -13,14 +13,20 @@ public class exercisesMain {
         exercise = new exercisesClass();
         exercise.exerciseOne();
 
-        //Get value of n
+        //Get value of n -- Draw horizontal line
         System.out.println("Give value of n: ");
         Scanner inValueN = new Scanner(System.in);
         n=Integer.parseInt(inValueN.nextLine());
 
-        //System.out.println(n);
 
         exercise.drawHorinzontalLine(n);
+
+        //Get value of n -- Draw vertical line
+        System.out.println("\nGive value of n: ");
+        Scanner inValueN2 = new Scanner(System.in);
+        n=Integer.parseInt(inValueN2.nextLine());
+        exercise.drawVerticalLine(n);
+
 
 
     }
