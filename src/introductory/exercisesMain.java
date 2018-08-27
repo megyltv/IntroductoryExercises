@@ -9,24 +9,30 @@ public class exercisesMain {
         String asterisk="*";
         exercisesClass exercise;
 
-        //Exercises One
         exercise = new exercisesClass();
-        exercise.exerciseOne();
+
+        //Exercises One
+        //exercise.exerciseOne();
 
         //Get value of n -- Draw horizontal line
-        System.out.println("Give value of n: ");
+        /*System.out.println("Give value of n: ");
         Scanner inValueN = new Scanner(System.in);
         n=Integer.parseInt(inValueN.nextLine());
 
 
-        exercise.drawHorinzontalLine(n);
+        exercise.drawHorinzontalLine(n);*/
 
         //Get value of n -- Draw vertical line
-        System.out.println("\nGive value of n: ");
-        Scanner inValueN2 = new Scanner(System.in);
-        n=Integer.parseInt(inValueN2.nextLine());
-        exercise.drawVerticalLine(n);
+        /*System.out.println("\nGive value of n: ");
+        Scanner inValueN = new Scanner(System.in);
+        n=Integer.parseInt(inValueN.nextLine());
+        exercise.drawVerticalLine(n);*/
 
+        //Get value of n -- Draw right triangle
+        System.out.println("\nGive value of n: ");
+        Scanner inValueN = new Scanner(System.in);
+        n=Integer.parseInt(inValueN.nextLine());
+        exercise.drawRightTriangle(n);
 
 
     }
