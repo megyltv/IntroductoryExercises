@@ -23,7 +23,11 @@ public class exercisesClass {
     }
 
     public void drawVerticalLine(int n){
-
+        aux=0;
+        while(aux<n){
+            System.out.println(asterisk);
+            aux++;
+        }
     }
 
     public void drawRightTriangle(){}
