@@ -38,10 +38,18 @@ public class exercisesMain {
 
 
         //DIAMOND EXERCISES
+
+        //Get value of n -- Draw isosceles triangle
+        /*System.out.println("\nGive value of n: ");
+        Scanner inValueN = new Scanner(System.in);
+        n=Integer.parseInt(inValueN.nextLine());
+        exercise.isoscelesTriangle(n);*/
+
+        //Get value of n -- Draw diamond exercise
         System.out.println("\nGive value of n: ");
         Scanner inValueN = new Scanner(System.in);
         n=Integer.parseInt(inValueN.nextLine());
-        exercise.isoscelesTriangle(n);
+        exercise.drawDiamond(n);
 
     }
 }

@@ -3,7 +3,7 @@ package introductory;
 public class exercisesClass {
     //int n;
     int aux=0;
-    int auxAsterisk=1, auxAsteriskOdd;
+    int auxAsteriskDraw =1, auxAsteriskOdd;
     int auxSpaces;
     String asterisk="*";
 
@@ -35,10 +35,10 @@ public class exercisesClass {
     public void drawRightTriangle(int n){
         aux=0;
         while(aux<n){
-            auxAsterisk=0;
-            while(auxAsterisk<aux+1){
+            auxAsteriskDraw =0;
+            while(auxAsteriskDraw <aux+1){
                 System.out.print(asterisk);
-                auxAsterisk++;
+                auxAsteriskDraw++;
             }
             System.out.print("\n");
             aux++;
@@ -46,19 +46,20 @@ public class exercisesClass {
     }
 
     //DIAMOND EXERCISES
+
     public void isoscelesTriangle(int n){
         aux=1;
         auxAsteriskOdd=1;
         auxSpaces=n-1;
         while(aux<=n){
-            auxAsterisk=1;
+            auxAsteriskDraw =1;
             while(auxSpaces>=0){
                 System.out.print(" ");
                 auxSpaces--;
             }
-            while(auxAsterisk<=auxAsteriskOdd){
+            while(auxAsteriskDraw <=auxAsteriskOdd){
                 System.out.print(asterisk);
-                auxAsterisk++;
+                auxAsteriskDraw++;
             }
             System.out.print("\n");
             aux++;
@@ -67,7 +68,45 @@ public class exercisesClass {
         }
     }
 
-    public void diamond(int n){}
+    public void drawDiamond(int n){
+        aux=1;
+        auxAsteriskOdd=1;
+        auxSpaces=n-1;
+        int auxSpacesDraw=1;
+        while(aux<=n){
+            auxAsteriskDraw =1;
+            while(auxSpaces>=0){
+                System.out.print(" ");
+                auxSpaces--;
+            }
+            while(auxAsteriskDraw <=auxAsteriskOdd){
+                System.out.print(asterisk);
+                auxAsteriskDraw++;
+            }
+            System.out.print("\n");
+            aux++;
+            auxSpaces=n-aux;
+            auxAsteriskOdd=auxAsteriskOdd+2;
+        }
+
+        while(aux>=1){
+            auxAsteriskDraw =1;
+            auxSpaces=0;
+            while(auxSpaces<=auxSpacesDraw){
+                System.out.print(" ");
+                auxSpaces++;
+            }
+            while(auxAsteriskDraw<=auxAsteriskOdd-4){
+                System.out.print(asterisk);
+                auxAsteriskDraw++;
+            }
+            System.out.print("\n");
+            aux--;
+            auxSpaces=aux-n;
+            auxAsteriskOdd=auxAsteriskOdd-2;
+            auxSpacesDraw++;
+        }
+    }
 
     public void diamondWithName(int n){}
 
