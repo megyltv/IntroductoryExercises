@@ -6,6 +6,7 @@ public class exercisesClass {
     int auxAsteriskDraw =1, auxAsteriskOdd;
     int auxSpaces;
     String asterisk="*";
+    String salida="";
 
     public exercisesClass(){}
 
@@ -17,13 +18,15 @@ public class exercisesClass {
         return asterisk;
     }
 
-    public void drawHorinzontalLine(int n){
+    public String drawHorinzontalLine(int n){
         aux=0;
         while(aux<n){
             System.out.print(asterisk);
             aux++;
+            salida+=asterisk;
         }
         System.out.print("\n");
+        return salida;
     }
 
     public void drawVerticalLine(int n){
@@ -175,8 +178,8 @@ public class exercisesClass {
         }
     }
 
-    public void primeFactorsExercise(int n){
-        String salida= "Factors: ";
+    public String primeFactorsExercise(int n){
+        String salida= "Factors:";
         int auxPrime=2;
         int auxControlTimesInMethod=1;
         while(n!=1) {
@@ -191,6 +194,7 @@ public class exercisesClass {
             auxControlTimesInMethod=1;
         }
         System.out.println(salida);
+        return salida;
     }
 
 }

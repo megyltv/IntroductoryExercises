@@ -11,11 +11,6 @@ public class exercisesMain {
         exercisesClass exercise;
         exercise = new exercisesClass();
 
-
-
-
-
-
         do {
             //Define menu options
             System.out.println("\nSelect exercise");
