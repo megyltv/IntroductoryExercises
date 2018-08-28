@@ -28,7 +28,7 @@ public class exercisesMain {
             System.out.println("DIAMOND EXERCISES");
             System.out.println("5. Draw an isosceles triangle");
             System.out.println("6. Draw a diamond");
-            System.out.println("7. Draw a diamond with name");
+            System.out.println("7. Draw a diamond with name\n");
 
             System.out.println("8. FizzBuzz Exercise");
             System.out.println("9. Prime Factors");

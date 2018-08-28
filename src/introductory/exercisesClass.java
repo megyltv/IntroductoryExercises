@@ -12,8 +12,9 @@ public class exercisesClass {
 
     //TRIANGLE EXERCISES
 
-    public void exerciseOne(){
+    public String exerciseOne(){
         System.out.println("\nPrint one asterisk\n"+asterisk);
+        return asterisk;
     }
 
     public void drawHorinzontalLine(int n){
