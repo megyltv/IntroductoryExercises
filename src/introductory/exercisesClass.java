@@ -3,7 +3,7 @@ package introductory;
 public class exercisesClass {
     //int n;
     int aux=0;
-    int auxAsterisk=1;
+    int auxAsterisk=1, auxAsteriskOdd;
     int auxSpaces;
     String asterisk="*";
 
@@ -48,6 +48,7 @@ public class exercisesClass {
     //DIAMOND EXERCISES
     public void isoscelesTriangle(int n){
         aux=1;
+        auxAsteriskOdd=1;
         auxSpaces=n-1;
         while(aux<=n){
             auxAsterisk=1;
@@ -55,13 +56,14 @@ public class exercisesClass {
                 System.out.print(" ");
                 auxSpaces--;
             }
-            while(auxAsterisk<aux+1){
+            while(auxAsterisk<=auxAsteriskOdd){
                 System.out.print(asterisk);
                 auxAsterisk++;
             }
             System.out.print("\n");
             aux++;
             auxSpaces=n-aux;
+            auxAsteriskOdd=auxAsteriskOdd+2;
         }
     }
 
