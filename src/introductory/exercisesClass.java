@@ -19,7 +19,7 @@ public class exercisesClass {
     public void drawHorinzontalLine(int n){
         aux=0;
         while(aux<n){
-            System.out.println(asterisk);
+            System.out.print(asterisk);
             aux++;
         }
     }
@@ -155,6 +155,22 @@ public class exercisesClass {
             auxSpacesDraw++;
         }
 
+    }
+
+    public void fizzBuzzExercise(){
+        int auxCount=1;
+        while (auxCount<=100){
+            if(auxCount%3==0 && auxCount%5==0){
+                System.out.println("FizzBuzz");
+            }else if(auxCount%3==0){
+                System.out.println("Fizz");
+            }else if(auxCount%5==0){
+                System.out.println("Buzz");
+            }else{
+                System.out.println(auxCount);
+            }
+            auxCount++;
+        }
     }
 
 

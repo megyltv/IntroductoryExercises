@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f292734-cc5a-4866-97bd-85429cc45496" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/introductory/exercisesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductory/exercisesClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/introductory/exercisesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductory/exercisesMain.java" afterDir="false" />
     </list>
@@ -37,32 +35,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2488" />
+          <entry key="java" value="3022" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2488" />
+          <entry key="JAVA" value="3022" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state relative-caret-position="194">
+              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+            <state relative-caret-position="239">
+              <caret line="171" column="23" lean-forward="true" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -95,8 +93,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="243" />
-    <option name="y" value="24" />
+    <option name="x" value="106" />
+    <option name="y" value="23" />
     <option name="width" value="1256" />
     <option name="height" value="785" />
   </component>
@@ -133,7 +131,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535470564907" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535472249223" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,7 +179,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="243" y="24" width="1256" height="785" extended-state="0" />
+    <frame x="106" y="23" width="1256" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.28336078" />
@@ -216,17 +214,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
+    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+        <state relative-caret-position="194">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
+    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="239">
+          <caret line="171" column="23" lean-forward="true" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
         </state>
       </provider>
     </entry>
