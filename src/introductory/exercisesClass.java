@@ -73,27 +73,13 @@ public class exercisesClass {
         }
     }
 
+
+
     public void drawDiamond(int n){
-        aux=1;
-        auxAsteriskOdd=1;
-        auxSpaces=n-1;
         int auxSpacesDraw=1;
+
         //Upper triangle
-        while(aux<=n){
-            auxAsteriskDraw =1;
-            while(auxSpaces>=0){
-                System.out.print(" ");
-                auxSpaces--;
-            }
-            while(auxAsteriskDraw <=auxAsteriskOdd){
-                System.out.print(asterisk);
-                auxAsteriskDraw++;
-            }
-            System.out.print("\n");
-            aux++;
-            auxSpaces=n-aux;
-            auxAsteriskOdd=auxAsteriskOdd+2;
-        }
+        isoscelesTriangle(n);
 
         //Lower triangle
         while(aux>=1){
