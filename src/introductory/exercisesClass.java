@@ -173,6 +173,22 @@ public class exercisesClass {
         }
     }
 
-
+    public void primeFactorsExercise(int n){
+        String salida= "Factors: ";
+        int auxPrime=2;
+        int auxControlTimesInMethod=1;
+        while(n!=1) {
+            while (n % auxPrime == 0) {
+                n = n / auxPrime;
+                if(auxControlTimesInMethod==1) {
+                    salida += " " + auxPrime;
+                    auxControlTimesInMethod++;
+                }
+            }
+            auxPrime++;
+            auxControlTimesInMethod=1;
+        }
+        System.out.println(salida);
+    }
 
 }

@@ -13,12 +13,21 @@ public class exercisesMain {
         exercise = new exercisesClass();
 
         //Define menu options
-        System.out.println("Select type of exercise");
-        System.out.println("1. Triangle exercises");
-        System.out.println("2. Diamond exercises");
-        System.out.println("3. FizzBuzz Exercise");
-        System.out.println("4. Prime Factors");
-        System.out.println("5. Salir");
+        System.out.println("Select exercise");
+        System.out.println("Triangle exercises");
+        System.out.println("1. Print one asterisk to console");
+        System.out.println("2. Draw a horizontal line");
+        System.out.println("3. Draw a vertical line");
+        System.out.println("4. Draw a right triangle");
+
+        System.out.println("Diamond exercises");
+        System.out.println("5. Draw an isosceles triangle");
+        System.out.println("6. Draw a diamond");
+        System.out.println("7. Draw a diamond with name");
+
+        System.out.println("8. FizzBuzz Exercise");
+        System.out.println("9. Prime Factors");
+        //System.out.println("5. Salir");
         System.out.print("Option: ");
 
 
@@ -28,89 +37,65 @@ public class exercisesMain {
 
             switch (optionMenu) {
                 case 1:
-                    //Options menu
-                    System.out.println("\nSelect number of exercise: ");
-                    System.out.println("1. Print one asterisk to console");
-                    System.out.println("2. Draw a horizontal line");
-                    System.out.println("3. Draw a vertical line");
-                    System.out.println("4. Draw a right triangle");
-                    System.out.print("Option: ");
-
-                    //Get value
-                    inValueN = new Scanner(System.in);
-                    optionSubMenu = Integer.parseInt(inValueN.nextLine());
-
-                    switch (optionSubMenu) {
-                        case 1:
-                            //Exercises One
-                            exercise.exerciseOne();
-                            break;
-                        case 2:
-                            //Get value of n -- Draw horizontal line
-                            System.out.println("Give value of n: ");
-                            inValueN = new Scanner(System.in);
-                            n = Integer.parseInt(inValueN.nextLine());
-                            exercise.drawHorinzontalLine(n);
-                            break;
-                        case 3:
-                            //Get value of n -- Draw vertical line
-                            System.out.println("\nGive value of n: ");
-                            inValueN = new Scanner(System.in);
-                            n = Integer.parseInt(inValueN.nextLine());
-                            exercise.drawVerticalLine(n);
-                            break;
-                        case 4:
-                            //Get value of n -- Draw right triangle
-                            System.out.println("\nGive value of n: ");
-                            inValueN = new Scanner(System.in);
-                            n = Integer.parseInt(inValueN.nextLine());
-                            exercise.drawRightTriangle(n);
-                            break;
-                    }
+                    //Exercises One
+                    exercise.exerciseOne();
                     break;
-
                 case 2:
-                    System.out.println("1. Draw an isosceles triangle");
-                    System.out.println("2. Draw a diamond");
-                    System.out.println("3. Draw a diamond with name");
-
-                    //Get value
+                    //Get value of n -- Draw horizontal line
+                    System.out.println("Give value of n: ");
                     inValueN = new Scanner(System.in);
-                    optionSubMenu = Integer.parseInt(inValueN.nextLine());
-
-                    switch (optionSubMenu) {
-                        case 1:
-                            //Get value of n -- Draw isosceles triangle
-                            System.out.println("\nGive value of n: ");
-                            inValueN = new Scanner(System.in);
-                            n = Integer.parseInt(inValueN.nextLine());
-                            exercise.isoscelesTriangle(n);
-                            break;
-                        case 2:
-                            //Get value of n -- Draw diamond exercise
-                            System.out.println("\nGive value of n: ");
-                            inValueN = new Scanner(System.in);
-                            n = Integer.parseInt(inValueN.nextLine());
-                            exercise.drawDiamond(n);
-                            break;
-                        case 3:
-                            //Get value of n -- Draw diamond with name exercise
-                            System.out.println("\nGive value of n: ");
-                            inValueN = new Scanner(System.in);
-                            n = Integer.parseInt(inValueN.nextLine());
-                            exercise.drawDiamondWithName(n);
-                            break;
-                    }
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.drawHorinzontalLine(n);
+                    break;
+                case 3:
+                    //Get value of n -- Draw vertical line
+                    System.out.println("\nGive value of n: ");
+                    inValueN = new Scanner(System.in);
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.drawVerticalLine(n);
+                    break;
+                case 4:
+                    //Get value of n -- Draw right triangle
+                    System.out.println("\nGive value of n: ");
+                    inValueN = new Scanner(System.in);
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.drawRightTriangle(n);
                     break;
 
-                case 3:
+                case 5:
+                    //Get value of n -- Draw isosceles triangle
+                    System.out.println("\nGive value of n: ");
+                    inValueN = new Scanner(System.in);
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.isoscelesTriangle(n);
+                    break;
+                case 6:
+                    //Get value of n -- Draw diamond exercise
+                    System.out.println("\nGive value of n: ");
+                    inValueN = new Scanner(System.in);
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.drawDiamond(n);
+                    break;
+                case 7:
+                    //Get value of n -- Draw diamond with name exercise
+                    System.out.println("\nGive value of n: ");
+                    inValueN = new Scanner(System.in);
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.drawDiamondWithName(n);
+                    break;
+                case 8:
                     exercise.fizzBuzzExercise();
                     break;
 
-                case 4:
+                case 9:
+                    //Get value of n -- Draw diamond with name exercise
+                    System.out.println("\nGive value of n: ");
+                    inValueN = new Scanner(System.in);
+                    n = Integer.parseInt(inValueN.nextLine());
+                    exercise.primeFactorsExercise(n);
 
                     break;
-                case 5:
+                case 10:
                     auxMenu = 1;
 
             }
