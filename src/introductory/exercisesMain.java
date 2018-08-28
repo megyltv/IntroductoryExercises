@@ -42,44 +42,38 @@ public class exercisesMain {
                 case 2:
                     //Get value of n -- Draw horizontal line
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.drawHorinzontalLine(n);
                     break;
                 case 3:
                     //Get value of n -- Draw vertical line
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.drawVerticalLine(n);
                     break;
                 case 4:
                     //Get value of n -- Draw right triangle
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.drawRightTriangle(n);
                     break;
 
                 case 5:
                     //Get value of n -- Draw isosceles triangle
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.isoscelesTriangle(n);
                     break;
                 case 6:
                     //Get value of n -- Draw diamond exercise
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.drawDiamond(n);
                     break;
                 case 7:
                     //Get value of n -- Draw diamond with name exercise
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.drawDiamondWithName(n);
                     break;
                 case 8:
@@ -89,8 +83,7 @@ public class exercisesMain {
                 case 9:
                     //Get value of n -- Draw diamond with name exercise
                     System.out.println("\nGive value of n: ");
-                    inValueN = new Scanner(System.in);
-                    n = Integer.parseInt(inValueN.nextLine());
+                    n = Integer.parseInt(new Scanner(System.in).nextLine());
                     exercise.primeFactorsExercise(n);
                     break;
                 case 10:
