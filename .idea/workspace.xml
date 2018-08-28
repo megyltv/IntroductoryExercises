@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f292734-cc5a-4866-97bd-85429cc45496" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroductoryExercises/introductory/exercisesMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/introductory/exercisesClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductory/exercisesClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/introductory/exercisesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/introductory/exercisesMain.java" afterDir="false" />
     </list>
@@ -34,32 +37,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1625" />
+          <entry key="java" value="2488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1625" />
+          <entry key="JAVA" value="2488" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="569">
+              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+            <state relative-caret-position="912">
+              <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -86,14 +89,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/exercisesMain.java" />
         <option value="$PROJECT_DIR$/src/exercisesClass.java" />
-        <option value="$PROJECT_DIR$/src/introductory/exercisesMain.java" />
         <option value="$PROJECT_DIR$/src/introductory/exercisesClass.java" />
+        <option value="$PROJECT_DIR$/src/introductory/exercisesMain.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="141" />
-    <option name="y" value="23" />
+    <option name="x" value="243" />
+    <option name="y" value="24" />
     <option name="width" value="1256" />
     <option name="height" value="785" />
   </component>
@@ -130,7 +133,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535468458302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535470564907" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -178,7 +181,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="141" y="23" width="1256" height="785" extended-state="0" />
+    <frame x="243" y="24" width="1256" height="785" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49785408" visible="true" weight="0.28336078" />
       <window_info id="Structure" order="1" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.28336078" />
@@ -197,7 +201,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32756132" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -212,17 +216,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
+    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="912">
+          <caret line="134" column="16" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesClass.java">
+    <entry file="file://$PROJECT_DIR$/src/introductory/exercisesMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="92" column="29" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+        <state relative-caret-position="569">
+          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -19,7 +19,7 @@ public class exercisesClass {
     public void drawHorinzontalLine(int n){
         aux=0;
         while(aux<n){
-            System.out.print(asterisk);
+            System.out.println(asterisk);
             aux++;
         }
     }
@@ -73,6 +73,7 @@ public class exercisesClass {
         auxAsteriskOdd=1;
         auxSpaces=n-1;
         int auxSpacesDraw=1;
+        //Upper triangle
         while(aux<=n){
             auxAsteriskDraw =1;
             while(auxSpaces>=0){
@@ -89,6 +90,7 @@ public class exercisesClass {
             auxAsteriskOdd=auxAsteriskOdd+2;
         }
 
+        //Lower triangle
         while(aux>=1){
             auxAsteriskDraw =1;
             auxSpaces=0;
@@ -108,7 +110,52 @@ public class exercisesClass {
         }
     }
 
-    public void diamondWithName(int n){}
+    public void drawDiamondWithName(int n){
+        aux=1;
+        auxAsteriskOdd=1;
+        auxSpaces=n-1;
+        int auxSpacesDraw=1;
+        //Upper triangle
+        while(aux<=n){
+            auxAsteriskDraw =1;
+            while(auxSpaces>=0){
+                System.out.print(" ");
+                auxSpaces--;
+            }
+            if(aux==n){
+                System.out.print("Megan");
+            }else{
+                while(auxAsteriskDraw <=auxAsteriskOdd){
+                    System.out.print(asterisk);
+                    auxAsteriskDraw++;
+                }
+            }
+            System.out.print("\n");
+            aux++;
+            auxSpaces=n-aux;
+            auxAsteriskOdd=auxAsteriskOdd+2;
+        }
+
+        //Lower triangle
+        while(aux>=1){
+            auxAsteriskDraw =1;
+            auxSpaces=0;
+            while(auxSpaces<=auxSpacesDraw){
+                System.out.print(" ");
+                auxSpaces++;
+            }
+            while(auxAsteriskDraw<=auxAsteriskOdd-4){
+                System.out.print(asterisk);
+                auxAsteriskDraw++;
+            }
+            System.out.print("\n");
+            aux--;
+            auxSpaces=aux-n;
+            auxAsteriskOdd=auxAsteriskOdd-2;
+            auxSpacesDraw++;
+        }
+
+    }
 
 
 
